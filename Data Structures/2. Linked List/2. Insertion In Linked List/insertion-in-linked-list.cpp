@@ -38,6 +38,7 @@ void append(Node **head_ref, int new_data)
     if (*head_ref == NULL)
     {
         *head_ref = new_node;
+        return;
     }
     while (last->next != NULL)
     {
