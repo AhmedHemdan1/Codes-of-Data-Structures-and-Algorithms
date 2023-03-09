@@ -6,10 +6,9 @@ class Node
 public:
     int data;
     Node *next;
-}
+};
 
-void
-push(Node **head_ref, int new_data)
+void push(Node **head_ref, int new_data)
 {
     Node *new_node = new Node();
     new_node->data = new_data;
